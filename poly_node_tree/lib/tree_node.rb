@@ -30,10 +30,11 @@ class PolyTreeNode
         child.parent = nil
     end
 
-    # def remove_child
-    # end
+    def bfs(target)
+        queue = []
+    
 
-
+    end
 
 
 end
