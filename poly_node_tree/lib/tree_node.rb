@@ -30,12 +30,6 @@ class PolyTreeNode
         child.parent = nil
     end
 
-    def bfs(target)
-        queue = []
-    
-
-    end
-
     def dfs(target = nil, &prc)
     raise "Need a proc or target" if [target, prc].none?
     prc ||= Proc.new { |node| node.value == target }
