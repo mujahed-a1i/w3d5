@@ -42,7 +42,7 @@ class PolyTreeNode
     end
 
     nil
-  end
+    end
 
   def bfs(target = nil, &prc)
     raise "Need a proc or target" if [target, prc].none?
